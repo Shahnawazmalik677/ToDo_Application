@@ -1,0 +1,44 @@
+.add{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    
+}
+
+.input{
+     border: 3px solid blueviolet;
+    border-radius: 9px;
+    width: 20rem;
+    height: 2rem;
+    font-size: larger;
+}
+.todos{
+   
+   
+     display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    font-size: larger;
+    flex-wrap: wrap;
+    width:fit-content;
+    height:2rem;
+    padding: 5px;
+    font-weight: 100px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.delete{
+    
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 3px;
+    height: 2rem;
+}
